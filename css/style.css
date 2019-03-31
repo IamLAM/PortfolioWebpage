@@ -65,8 +65,14 @@ a {
     padding: 50px;
 }
 
+.pro {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+}
+
 @media (max-width: 600px) {
-    body {
-        background-color: #CCC;
-    }
+    body {}
+    background-color: #CCC;
 }
