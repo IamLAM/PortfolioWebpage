@@ -1,0 +1,57 @@
+#navbar {
+    background-color: #00A676;
+    color: white;
+    width: 100%;
+    position: fixed;
+    /* border-top: solid;
+    border-bottom: solid;*/
+}
+
+nav ul {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-align: right;
+}
+
+#navbar li {
+    /* border-top: solid;solid;*/
+    border-color: #171717;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #00A676;
+}
+
+header {}
+
+a {
+    color: white;
+}
+
+#main-doc a {
+    color: #2E626A;
+}
+
+#main-doc {}
+
+#welcome-section {
+    min-height: 55vh;
+    height: 100%;
+    top: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #CCC;
+    }
+}
+
+r
