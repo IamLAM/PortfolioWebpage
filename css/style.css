@@ -28,6 +28,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: #00A676;
+    text-align: center;
 }
 
 header {}
@@ -43,9 +44,16 @@ a {
 #main-doc {}
 
 #welcome-section {
-    min-height: 55vh;
     height: 100%;
-    top: 0;
+    padding: 25%;
+}
+
+#Projects {
+    padding: 50px;
+}
+
+#Social {
+    padding: 50px;
 }
 
 @media (max-width: 600px) {
@@ -53,5 +61,3 @@ a {
         background-color: #CCC;
     }
 }
-
-r
